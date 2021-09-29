@@ -340,7 +340,7 @@ p.scans.scan00.illumination.propagation.parallel = 1.*defocus_um*1e-6 # somehow 
 p.engines = u.Param()
 p.engines.engine00 = u.Param()
 p.engines.engine00.name = 'DM'
-p.engines.engine00.numiter = 100
+p.engines.engine00.numiter = 50 ##100
 p.engines.engine00.numiter_contiguous = 1 ##10
 
 
